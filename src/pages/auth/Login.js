@@ -6,7 +6,7 @@ class Login extends Component {
     state = {}
 
     loginHandler = () => {
-        this.props.history.push('/');
+        this.props.history.push('/dashboard');
         window.location.reload();
     }
 

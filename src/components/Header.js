@@ -16,7 +16,7 @@ class Header extends Component {
                     </div>
                     <ul className="nav navbar-top-links navbar-right">
                         <li>
-                            <a href="/login">
+                            <a href="/">
                                 <i className="fa fa-sign-out"></i> Log out
                             </a>
                         </li>

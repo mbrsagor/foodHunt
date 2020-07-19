@@ -63,7 +63,7 @@ class Singup extends Component {
                             </div>
                             <button className="btn btn-primary btn-block btn-lg form-control mb-3">Singup</button>
                         </form>
-                        <div className="text-center small text-dark">Already have an account? <Link to='/login'>Login</Link></div>
+                        <div className="text-center small text-dark">Already have an account? <Link to='/'>Login</Link></div>
                     </div>
                 </div>
             </>

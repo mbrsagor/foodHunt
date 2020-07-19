@@ -20,9 +20,9 @@ class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route exact path="/login" component={Login} />
+          <Route exact path="/" component={Login} />
           <Route path="/singup" component={Singup} />
-          <Route path="/" component={Dashboard} />
+          <Route path="/dashboard" component={Dashboard} />
           <Route path="/add-topic" component={AddTopic} />
           <Route path="/topic-list" component={TopicList} />
           <Route path="/add-ads" component={AdddAds} />
