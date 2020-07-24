@@ -1,4 +1,6 @@
-# Installation documenation
+<h2> React static admin dashboard/template
+
+## Installation documenation
 
 Download from the repo [git clone ](https://github.com/facebook/create-react-app).
 ##### ```cd  bannedApp```
