@@ -13,7 +13,7 @@ import AdddAds from './pages/ads/add/AddAds';
 import AdsList from './pages/ads/list/AdsList';
 import AddPrice from './pages/pricing/add/AddPrice';
 import PricingList from './pages/pricing/list/PricingList';
-// import ErrorPage from './pages/ErrorPage';
+import ErrorPage from './pages/ErrorPage';
 
 class App extends Component {
   render() {
@@ -29,7 +29,7 @@ class App extends Component {
           <Route path="/ads-list" component={AdsList} />
           <Route path="/add-pricing" component={AddPrice} />
           <Route path="/pricing-list" component={PricingList} />
-          {/* <Route component={ErrorPage} /> */}
+          <Route component={ErrorPage} />
         </Switch>
       </BrowserRouter>
     )
